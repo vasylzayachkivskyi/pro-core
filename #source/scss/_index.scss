@@ -271,7 +271,8 @@
         object-fit: cover;
         display: block;
         border-radius: 16px;
-        border: 2px dashed #5C6B85;
+       outline: 2px dashed #5C6B85;
+    outline-offset: -2px;
     }
 
     &:nth-child(odd) {
@@ -363,6 +364,7 @@
         color: #fff;
         font-size: 15px;
         font-weight: 700;
+        text-align: right;
     }
 
     .name {
